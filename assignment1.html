@@ -1,0 +1,102 @@
+<html>
+ <head>
+  <script type="text/javascript" src="assignment1.js"></script>
+ <link rel="stylesheet" type="text/css" href="assignment1.css">
+ 
+</head>
+
+<body>
+  
+  <!-- <script src="assignment1.js"></script> -->
+  <h1 align="center"style="font-family:TimesNewRoman ;font-size:35";><u>STUDENT MARKSHEET</u></h1>
+  <fieldset>
+  <legend><u> STUDENT INFORMATION </u></legend>
+  <table align="center" id="tbl">
+    <form name="StudInfo">
+   <tr>
+     <td width="140">Name:</td> <td><INPUT type="text" name="Studnm"/></td>
+     <td> &nbsp; &nbsp;Father Name:</td><td> <INPUT type="text" name="Studfnm"/></td>
+   </tr>
+
+   <tr>
+     <td width="140" > Institute Name:</td><td> <INPUT type="text" name="Studinst"/></td>
+     <td style="text-indent:16px">Batch:</td><td> <INPUT type="text" name="Studbatch"/></td>
+   </tr>
+ </table>
+</fieldset>
+</br>
+<fieldset>
+ <legend><U> SUBJECTS MARKS </U></legend>
+  <table id="tbl2">
+    <tr>
+    <td> Office Automation:</td><td> <INPUT type="text" name="OAMarks"  size="10"/> Out of 100 </td>
+    </tr>
+
+    <tr>
+    <td> Web Designing:</td><td>  <INPUT type="text" name="WDMarks"  size="10"/> Out of 100</td>
+    </tr>
+
+    <tr>
+    <td> IT:</td><td> <INPUT type="text" name="ITMarks"  size="10"/> Out of 100</td>
+    </tr>
+
+    <tr>
+    <td> C# Programing:</td><td> <INPUT type="text" name="CPMarks"  size="10" /> Out of 100</td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+    </tr>
+  </table>
+ </fieldset>
+    <div class="btn">
+    <button style="font-size:18" type="button" onclick='StudMarksheet()'>Submit</button>
+    <button style="font-size:18" type="button" onclick='clrmarksheet()'>Reset</button>
+    </div>
+
+    <div class="outputtbl">
+    <table border="1">
+        <tr>
+          <th colspan="8" width="240"> Student Information </th>
+        </tr>
+        <tr>
+          <td width="135">Name:</td><TD><FONT face="arial" id="Studname"></FONT></TD>
+        </tr>
+        <tr>
+          <td width="135">Father Name:</td><TD><FONT face="arial" id="Studfname"></FONT></TD>
+        </tr>
+        <tr>
+          <td width="135">Institute Name:</td><TD><FONT face="arial" id="Studins"></FONT></TD>
+        </tr>
+          <td width="135">Batch:</td> <TD><FONT face="arial" id="Studbatch"></FONT></TD>
+        </tr>
+          <tr>
+            <th colspan="8" width="240"> Subjects Marks </th>
+          </tr>
+        <tr>
+            <td width="135">Office Automation:</td> <TD><FONT face="arial" id="Studoffice"></FONT></TD>
+        </tr>
+        <tr>
+            <td width="135">Web Designing:</td><TD><FONT face="arial" id="Studweb"></FONT></TD>
+        </tr>
+            <td width="135">IT:</td><TD><FONT face="arial" id="Studit"></FONT></TD>
+        </tr>
+        <tr>
+            <td width="135">C# Programing:</td><TD><FONT face="arial" id="Studc"></FONT></TD>
+        </tr>
+        <tr>
+            <th colspan="8" width="240"> Marks Result </th>
+        </tr>
+        <tr>
+            <td width="135">TOTAL:</td><TD> <FONT face="arial" id="Studtotal"></FONT></TT></TD>
+        </tr>
+        <tr>
+            <td width="135">Percentage:</td><TD><FONT face="arial" id="Studper"></FONT></TD>
+        </tr>
+        <tr>
+            <td width="135">Grade:</td><TD><FONT face="arial" id="Studgrade"></FONT></TD>
+        </tr>
+    </table>
+  </div>
+</body>
+</html>
+

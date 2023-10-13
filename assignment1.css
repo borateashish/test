@@ -1,0 +1,29 @@
+body
+    {
+      width: 850px;
+      height: 705px;
+      top: 15px;
+      left: 45px;
+      padding: 30px 30px 50px 30px;
+    }
+    #tbl,#tbl2
+    {
+      font-size:18;
+      font-family:TimesNewRoman;
+    }
+    .outputtbl
+    {
+      position:absolute;
+      left:360px;
+      top:380px;
+      font-size:20;
+      font-family:TimesNewRoman;
+      font-weight:bold;
+      margin-top:35px;
+    }
+    .btn
+    {
+      position:absolute;
+      top: 360px;
+      left:720px;
+    }
